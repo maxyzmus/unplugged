@@ -97,6 +97,49 @@ textarea {
      Author's custom styles
      ========================================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -410,6 +453,7 @@ aside {
   .header-divider {
     display: none;
   }
+
   /* Hero Area */
 
   /* Aside */
@@ -498,10 +542,10 @@ aside {
    FAQ Page
    ========================================================================== */
 
-   header {
+  header {
     padding: 15px 0;
   }
-  
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -525,7 +569,7 @@ aside {
   /* Hero */
   .hero-area h1 {
     width: 60%;
-}
+  }
 
   /* Aside */
   aside .content-wrapper {
@@ -546,7 +590,7 @@ aside {
   .features article {
     flex-basis: 33%;
   }
-  
+
   /* Reviews */
   .reviews article div {
     width: 42%;
@@ -558,7 +602,7 @@ aside {
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
+    width: 95%;
   }
 
   /* ==========================================================================

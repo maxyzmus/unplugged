@@ -213,7 +213,10 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  padding: 0 10px;
+  justify-content: center;
 }
+
 
 footer {
   text-align: center;
@@ -573,6 +576,10 @@ input[type=button] {
   header nav ul {
     justify-content: space-between;
   }
+
+  header nav ul li {
+    padding: 0 10px;
+  }  
 
   .header-divider {
     display: none;

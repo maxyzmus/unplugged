@@ -17,14 +17,14 @@ html {
 }
 
 /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -37,8 +37,8 @@ html {
 }
 
 /*
-   * A better looking default horizontal rule
-   */
+ * A better looking default horizontal rule
+ */
 
 hr {
   display: block;
@@ -50,10 +50,10 @@ hr {
 }
 
 /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
 
 audio,
 canvas,
@@ -65,8 +65,8 @@ video {
 }
 
 /*
-   * Remove default fieldset styles.
-   */
+ * Remove default fieldset styles.
+ */
 
 fieldset {
   border: 0;
@@ -75,16 +75,16 @@ fieldset {
 }
 
 /*
-   * Allow only vertical resizing of textareas.
-   */
+ * Allow only vertical resizing of textareas.
+ */
 
 textarea {
   resize: vertical;
 }
 
 /* ==========================================================================
-     Browser Upgrade Prompt
-     ========================================================================== */
+   Browser Upgrade Prompt
+   ========================================================================== */
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -94,63 +94,66 @@ textarea {
 }
 
 /* ==========================================================================
-     Author's custom styles
-     ========================================================================== */
+   Author's custom styles
+   ========================================================================== */
 
 /* General Styles */
-
+ 
 html {
-  font-size: 16px;
+	font-size: 16px;
 }
-
+ 
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
 }
-
-ul,
+ 
+ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
+ 
 a {
   color: #e2e3ed;
   text-decoration: none;
 }
-
+ 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
-
-h3,
+ 
+h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   margin: 20px 0;
 }
-
+ 
 p {
   font-size: .875em;
   line-height: 1.285;
 }
-
+ 
 img {
-  width: 100%;
+ width: 100%;
 }
-
+ 
 figure {
-  margin: 0;
+ margin: 0;
 }
-
+ 
 address {
-  font-style: normal;
+ font-style: normal;
 }
-
+ 
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -188,7 +191,7 @@ header figure {
 }
 
 .header-divider {
-  background: #3a3a3a;
+  background: #3a3a3a; 
   height: 1px;
   width: 100%;
   margin: 10px 0 20px 0;
@@ -213,10 +216,7 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
-  padding: 0 10px;
-  justify-content: center;
 }
-
 
 footer {
   text-align: center;
@@ -276,9 +276,9 @@ footer .copyright {
 
 .hero-area h1 {
   font-size: 2.25em;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.2;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2; 
 }
 
 /* Aside */
@@ -374,8 +374,8 @@ input[type=button] {
 }
 
 /* ==========================================================================
-     About Page
-     ========================================================================== */
+   About Page
+   ========================================================================== */
 
 .mission {
   background-color: #527158;
@@ -387,8 +387,8 @@ input[type=button] {
 
 .map figure {
   width: 100%;
-  height: 0;
-  padding-bottom: 125%;
+  height: 0; 
+  padding-bottom: 125%; 
   overflow: hidden;
   position: relative;
 }
@@ -396,9 +396,9 @@ input[type=button] {
 .map iframe {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
 
 .contact-section {
@@ -414,8 +414,8 @@ input[type=button] {
 }
 
 /* ==========================================================================
-     FAQ Page
-     ========================================================================== */
+   FAQ Page
+   ========================================================================== */
 
 .faq {
   background-color: #527158;
@@ -447,25 +447,25 @@ input[type=button] {
 }
 
 /* ==========================================================================
-     Helper classes
-     ========================================================================== */
+   Helper classes
+   ========================================================================== */
 
 /*
-   * Hide visually and from screen readers
-   */
+ * Hide visually and from screen readers
+ */
 
 .hidden {
   display: none !important;
 }
 
 /*
-   * Hide only visually, but have it available for screen readers:
-   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-   *
-   * 1. For long content, line feeds are not interpreted as spaces and small width
-   *    causes content to wrap 1 word per line:
-   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-   */
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
 
 .visuallyhidden {
   border: 0;
@@ -481,10 +481,10 @@ input[type=button] {
 }
 
 /*
-   * Extends the .visuallyhidden class to allow the element
-   * to be focusable when navigated to via the keyboard:
-   * https://www.drupal.org/node/897638
-   */
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -498,24 +498,24 @@ input[type=button] {
 }
 
 /*
-   * Hide visually and from screen readers, but maintain layout
-   */
+ * Hide visually and from screen readers, but maintain layout
+ */
 
 .invisible {
   visibility: hidden;
 }
 
 /*
-   * Clearfix: contain floats
-   *
-   * For modern browsers
-   * 1. The space content is one way to avoid an Opera bug when the
-   *    `contenteditable` attribute is included anywhere else in the document.
-   *    Otherwise it causes space to appear at the top and bottom of elements
-   *    that receive the `clearfix` class.
-   * 2. The use of `table` rather than `block` is only necessary if using
-   *    `:before` to contain the top-margins of child elements.
-   */
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
 
 .clearfix:before,
 .clearfix:after {
@@ -530,10 +530,10 @@ input[type=button] {
 }
 
 /* ==========================================================================
-     EXAMPLE Media Queries for Responsive Design.
-     These examples override the primary ('mobile first') styles.
-     Modify as content requires.
-     ========================================================================== */
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
 
 @media only screen and (min-width:768px) {
   /*Tablet styles here*/
@@ -543,15 +543,15 @@ input[type=button] {
     max-width: 640px;
     margin: 100px 0;
   }
-
+      
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
   }
 
   h3 {
-    font-size: 1.5em;
-    line-height: 1.25;
+      font-size: 1.5em;
+      line-height: 1.25;
   }
 
   /* Header */
@@ -577,25 +577,20 @@ input[type=button] {
     justify-content: space-between;
   }
 
-  header nav ul li {
-    padding: 0 10px;
-  }  
-
   .header-divider {
     display: none;
   }
-
   /* Hero Area */
 
   .hero-area {
     min-height: 600px;
   }
-
+  
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
     margin: 0;
-  }
+}
 
   /* Aside */
   aside .content-wrapper {
@@ -607,7 +602,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 35%;
+    width: 40%;
     margin: 0;
   }
 
@@ -624,9 +619,13 @@ input[type=button] {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
-
+  
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -648,7 +647,6 @@ input[type=button] {
     width: 75%;
     margin: 0;
   }
-
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -672,21 +670,21 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 1.285;
+      line-height: 1.285;
   }
 
   footer .social-icons {
     width: 12.5em;
     justify-content: space-between;
   }
-
+  
   footer .copyright {
     width: 100%;
   }
 
   /* ==========================================================================
-     About Page
-     ========================================================================== */
+   About Page
+   ========================================================================== */
 
   .mission-content {
     display: flex;
@@ -718,8 +716,8 @@ input[type=button] {
   }
 
   /* ==========================================================================
-     FAQ Page
-     ========================================================================== */
+   FAQ Page
+   ========================================================================== */
 
   .faq .content-wrapper {
     justify-content: space-between;
@@ -735,8 +733,8 @@ input[type=button] {
 
   .faq h4,
   .faq p {
-    font-size: .875em;
-    line-height: 1.125;
+      font-size: .875em;
+      line-height: 1.125;
   }
 }
 
@@ -757,12 +755,12 @@ input[type=button] {
 
   h3,
   h4 {
-    font-size: 1.875em;
+      font-size: 1.875em;
   }
 
   p {
-    font-size: 1.125em;
-    line-height: 1.333;
+      font-size: 1.125em;
+      line-height: 1.333;
   }
 
   /* Hero */
@@ -778,7 +776,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 30%;
   }
 
   .form-description p {
@@ -794,13 +792,13 @@ input[type=button] {
   .features article {
     flex-basis: 33%;
   }
-
+  
   /* Reviews */
-
+  
   .reviews h2 {
-    padding-bottom: 50px;
+    padding-bottom: 50px; 
   }
-
+  
   .reviews article div {
     width: 42%;
   }
@@ -810,16 +808,16 @@ input[type=button] {
   }
 
   /* ==========================================================================
-    About Page
-    ========================================================================== */
+  About Page
+  ========================================================================== */
   .map figure {
     padding-bottom: 37.5%;
   }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 95%;
-    font-size: 3em;
+      width: 95%;
+      font-size: 3em;
   }
 
   .contact-content h4 {
@@ -827,28 +825,27 @@ input[type=button] {
   }
 
   /* ==========================================================================
-    FAQ Page
-    ========================================================================== */
+  FAQ Page
+  ========================================================================== */
   .faq h2 {
     width: 100%;
     font-size: 3em;
   }
-
+    
   .faq h4,
   .faq p {
-    font-size: 1.125em;
-    line-height: 1;
+      font-size: 1.125em;
+      line-height: 1;
   }
 }
 
 /* ==========================================================================
-     Print styles.
-     Inlined to avoid the additional HTTP request:
-     https://www.phpied.com/delay-loading-your-print-css/
-     ========================================================================== */
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
 
 @media print {
-
   *,
   *:before,
   *:after {
@@ -859,59 +856,49 @@ input[type=button] {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
   a,
   a:visited {
     text-decoration: underline;
   }
-
   a[href]:after {
     content: " (" attr(href) ")";
   }
-
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-
   /*
-       * Don't show links that are fragment identifiers,
-       * or use the `javascript:` pseudo protocol
-       */
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   /*
-       * Printing Tables:
-       * http://css-discuss.incutio.com/wiki/Printing_Tables
-       */
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
   thead {
     display: table-header-group;
   }
-
   tr,
   img {
     page-break-inside: avoid;
   }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-
   h2,
   h3 {
     page-break-after: avoid;
